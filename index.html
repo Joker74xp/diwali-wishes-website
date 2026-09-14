@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Diwali - Wishes & Celebration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <h1>✨ Happy Diwali ✨</h1>
+            <p>Light up your life with joy and blessings</p>
+        </header>
+
+        <!-- Main Content -->
+        <div class="main-content">
+            <!-- Diya Animation -->
+            <div class="diya-section">
+                <div class="diya-container">
+                    <div class="diya">
+                        <div class="lamp">
+                            <div class="flame"></div>
+                            <div class="glow"></div>
+                        </div>
+                        <div class="diya-body"></div>
+                    </div>
+                </div>
+                <div class="progress-text">
+                    <p>Progress: <span id="progress-count">0</span>/10 Steps Completed</p>
+                    <div class="progress-bar">
+                        <div class="progress-fill" id="progress-fill"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Steps Container -->
+            <div class="steps-container">
+                <h2>Complete 10 Steps to Light the Diwali</h2>
+                
+                <div class="steps-list">
+                    <!-- Step 1 -->
+                    <div class="step" data-step="1">
+                        <div class="step-header">
+                            <span class="step-number">1</span>
+                            <span class="step-title">Spread Love</span>
+                            <input type="checkbox" class="step-checkbox" />
+                        </div>
+                        <p class="step-description">Share your love with family and friends</p>
+                    </div>
+
+                    <!-- Step 2 -->
+                    <div class="step" data-step="2">
+                        <div class="step-header">
+                            <span class="step-number">2</span>
+                            <span class="step-title">Spread Happiness</span>
+                            <input type="checkbox" class="step-checkbox" />
+                        </div>
+                        <p class="step-description">Make someone smile today</p>
+                    </div>
+
+                    <!-- Step 3 -->
+                    <div class="step" data-step="3">
+                        <div class="step-header">
+                            <span class="step-number">3</span>
+                            <span class="step-title">Light a Diya</span>
+                            <input type="checkbox" class="step-checkbox" />
+                        </div>
+                        <p class="step-description">Light a lamp in your home</p>
+                    </div>
+
+                    <!-- Step 4 -->
+                    <div class="step" data-step="4">
+                        <div class="step-header">
+                            <span class="step-number">4</span>
+                            <span class="step-title">Share Sweets</span>
+                            <input type="checkbox" class="step-checkbox" />
+                        </div>
+                        <p class="step-description">Distribute sweets and treats</p>
+                    </div>
+
+                    <!-- Step 5 -->
+                    <div class="step" data-step="5">
+                        <div class="step-header">
+                            <span class="step-number">5</span>
+                            <span class="step-title">Clean & Decorate</span>
+                            <input type="checkbox" class="step-checkbox" />
+                        </div>
+                        <p class="step-description">Decorate your home beautifully</p>
+                    </div>
+
+                    <!-- Step 6 -->
+                    <div class="step" data-step="6">
+                        <div class="step-header">
+                            <span class="step-number">6</span>
+                            <span class="step-title">Wear New Clothes</span>
+                            <input type="checkbox" class="step-checkbox" />
+                        </div>
+                        <p class="step-description">Dress up in your best attire</p>
+                    </div>
+
+                    <!-- Step 7 -->
+                    <div class="step" data-step="7">
+                        <div class="step-header">
+                            <span class="step-number">7</span>
+                            <span class="step-title">Burst Firecrackers</span>
+                            <input type="checkbox" class="step-checkbox" />
+                        </div>
+                        <p class="step-description">Celebrate with festivities</p>
+                    </div>
+
+                    <!-- Step 8 -->
+                    <div class="step" data-step="8">
+                        <div class="step-header">
+                            <span class="step-number">8</span>
+                            <span class="step-title">Pray & Bless</span>
+                            <input type="checkbox" class="step-checkbox" />
+                        </div>
+                        <p class="step-description">Offer prayers for prosperity</p>
+                    </div>
+
+                    <!-- Step 9 -->
+                    <div class="step" data-step="9">
+                        <div class="step-header">
+                            <span class="step-number">9</span>
+                            <span class="step-title">Play Games</span>
+                            <input type="checkbox" class="step-checkbox" />
+                        </div>
+                        <p class="step-description">Enjoy games with loved ones</p>
+                    </div>
+
+                    <!-- Step 10 -->
+                    <div class="step" data-step="10">
+                        <div class="step-header">
+                            <span class="step-number">10</span>
+                            <span class="step-title">Share Wishes</span>
+                            <input type="checkbox" class="step-checkbox" />
+                        </div>
+                        <p class="step-description">Send wishes to everyone</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Completion Message -->
+            <div class="completion-message" id="completion-message" style="display: none;">
+                <div class="message-content">
+                    <h2>🎉 Congratulations! 🎉</h2>
+                    <p>You have completed all 10 steps!</p>
+                    <p class="blessing">May the light of Diwali illuminate your life with happiness, health, and prosperity!</p>
+                    <button onclick="resetSteps()" class="reset-button">Celebrate Again</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>🪔 Wishing you a Happy Diwali 🪔</p>
+            <p>Let the festival of lights brighten your path</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
